@@ -34,13 +34,10 @@ This checklist documents the final audit of the Groww FirstStep case study prior
 - **Action Required:** The `docs/HUMAN_SUBMISSION_GUIDE.md` exists as a template, but the candidate *must* independently write the final 300–700-word submission page covering problem interpretation, scope, solution, and rationale.
 
 ## 6. Deployment Status
-- **Status:** NOT VERIFIED
-- **Action Required:** The app is ready to deploy but has not been deployed to a public URL. 
-  - **Steps to deploy (e.g., Vercel or Netlify):**
-    1. Connect the GitHub repository to Vercel/Netlify.
-    2. Set the build command to `npm run build` and output directory to `dist`.
-    3. Ensure single-page app (SPA) fallback is configured (e.g., a `vercel.json` with rewrites, or `_redirects` file for Netlify) to support React Router.
-    4. Once deployed, open a fresh Incognito session and navigate through the app to verify.
+- **Status:** VERIFIED
+- **Evidence:** The application is successfully deployed and publicly accessible.
+  - **Live URL:** [https://groww-genz-two.vercel.app](https://groww-genz-two.vercel.app)
+  - Vercel handles the SPA routing perfectly via the included `vercel.json`.
 
 ## 7. Remaining Material Risks
 - **Status:** VERIFIED (All mitigated)

@@ -1,5 +1,7 @@
 # Groww FirstStep: Product Intern Case Study
 
+**Live Demo:** [https://groww-genz-two.vercel.app](https://groww-genz-two.vercel.app)
+
 An independent product concept designed for Gen Z investors to learn about investing safely and understand their financial readiness before making real investments.
 
 ## Stack
